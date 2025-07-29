@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens de programação</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #3d3d3d;
+            color: #ffffff;
+        }
+        .card {
+            width: 350px;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        .row {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Linguagens modernas de programação</h1>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        <h3>Java</h3>
+                    </header>
+                    <div class="card-body">
+                        <p>
+                            Java é uma linguagem de programação orientada a objetos e multiplataforma, amplamente
+                            utilizada em diversas aplicações, como desenvolvimento web, aplicativos móveis, e sistemas
+                            corporativos. Sua portabilidade, obtida através da Java Virtual Machine (JVM), permite que o
+                            código Java seja executado em diferentes sistemas operacionais sem modificações.
+                        </p>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/language/">Leia mais</a>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        <h3>C++</h3>
+                    </header>
+                    <div class="card-body">
+                        <p>
+                            C++ é uma linguagem de programação multi-paradigma, de propósito geral e compilada,
+                            desenvolvida a partir da linguagem C. É conhecida por sua eficiência, desempenho e
+                            capacidade de controlar diretamente os recursos do hardware, sendo amplamente utilizada em
+                            aplicações como jogos, sistemas operacionais, ferramentas financeiras e software de alto
+                            desempenho.
+                        </p>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://cplusplus.com/">Leia mais</a>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        <h3>Python</h3>
+                    </header>
+                    <div class="card-body">
+                        <p>
+                            Python é uma linguagem de programação de alto nível, interpretada, interativa e orientada a
+                            objetos. É conhecida por sua sintaxe clara e legibilidade, o que a torna uma excelente
+                            escolha para iniciantes e profissionais. O Python suporta múltiplos paradigmas de
+                            programação, incluindo programação estruturada, orientada a objetos e funcional.
+                        </p>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="https://www.python.org/">Leia mais</a>
+                    </footer>
+                </article>
+            </div>
+        </div>
+
+        <div id="carousel-imgs" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/24/20/48/programming-1857236_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2015/09/09/21/12/monitor-933392_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-imgs" data-bs-slide="prev" class="carousel-control-prev" type="button">
+              <span class="carousel-control-prev-icon"></span>  
+            </button>
+            <button data-bs-target="#carousel-imgs" data-bs-slide="next" class="carousel-control-next" type="button">
+              <span class="carousel-control-next-icon"></span>  
+            </button>
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
